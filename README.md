@@ -10,18 +10,6 @@
 
 ---
 
-## Screenshots
-
-**Running the script in terminal:**
-
-![Terminal](screenshots/Screenshot%202026-04-16%20170941.png)
-
-**Output window — Original vs Pixel Art side by side:**
-
-![Pixel Art Output](screenshots/Screenshot%202026-04-16%20170934.png)
-
----
-
 ## Objective
 
 - Convert a high-resolution image into a pixel-art style image
@@ -68,12 +56,14 @@ pip install opencv-python numpy
 python main.py
 ```
 
-You'll be prompted to enter an image path. Press **Enter** to use the default `input.jpg`, or type a filename like `flower.jpg`.
+You'll be prompted to enter the path of any image. Press **Enter** to use the default `input.jpg`, or provide any image filename:
 
 ```
-Enter image path (or press Enter for default 'input.jpg'): flower.jpg
+Enter image path (or press Enter for default 'input.jpg'): your_image.jpg
 Press any key to exit...
 ```
+
+> **Any image works** — just make sure the file is in the same directory as `main.py`, or provide the full path.
 
 ---
 
@@ -82,9 +72,6 @@ Press any key to exit...
 ```
 PixelArtProject/
 ├── main.py               # Main script
-├── flower.jpg            # Sample input image
-├── man.jpg               # Sample input image
-├── scenery.jpg           # Sample input image
 ├── screenshots/
 │   ├── Screenshot 2026-04-16 170934.png   # Output window
 │   └── Screenshot 2026-04-16 170941.png   # Terminal run
@@ -115,3 +102,15 @@ PixelArtProject/
 - **Python 3**
 - **OpenCV** (`cv2`) — image I/O, resizing, display
 - **NumPy** — matrix operations and reshaping
+
+---
+
+## Screenshots
+
+**Running the script in terminal:**
+
+![Terminal](screenshots/Screenshot%202026-04-16%20170941.png)
+
+**Output window — Original vs Pixel Art side by side:**
+
+![Pixel Art Output](screenshots/Screenshot%202026-04-16%20170934.png)
