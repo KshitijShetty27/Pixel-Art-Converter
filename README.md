@@ -72,6 +72,8 @@ Press any key to exit...
 ```
 PixelArtProject/
 ├── main.py               # Main script
+├── .gitignore
+├── README.md
 ├── screenshots/
 │   ├── Screenshot 2026-04-16 170934.png   # Output window
 │   └── Screenshot 2026-04-16 170941.png   # Terminal run
