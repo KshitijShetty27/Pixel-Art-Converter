@@ -75,7 +75,8 @@ PixelArtProject/
 ├── screenshots/
 │   ├── Screenshot 2026-04-16 170934.png   # Output window
 │   └── Screenshot 2026-04-16 170941.png   # Terminal run
-└─ Pixel-Art-Converter.pptx                # Project presentation
+├── Pixel-Art-Converter.pptx               # Project presentation
+└── input.jpg                              # Default image
 ```
 
 ---
